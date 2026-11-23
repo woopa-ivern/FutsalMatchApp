@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FutsalMatch" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/lapangan</item>
+        <item name="colorOnPrimary">@color/putih</item>
+        <item name="colorPrimaryContainer">@color/rumput_muda</item>
+        <item name="colorOnPrimaryContainer">@color/lapangan_malam</item>
+        <item name="colorSecondary">@color/peluit</item>
+        <item name="colorOnSecondary">@color/tinta</item>
+        <item name="colorError">@color/kesalahan</item>
+        <item name="android:colorBackground">@color/kertas_skor</item>
+        <item name="colorSurface">@color/putih</item>
+        <item name="colorOnSurface">@color/tinta</item>
+        <item name="colorOutline">@color/garis</item>
+        <item name="android:statusBarColor">@color/lapangan</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.FutsalMatch.Splash" parent="Theme.FutsalMatch">
+        <item name="android:windowBackground">@color/lapangan</item>
+        <item name="android:statusBarColor">@color/lapangan</item>
+    </style>
+
+    <style name="FutsalMatch.BottomNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/rumput_muda</item>
+    </style>
+</resources>

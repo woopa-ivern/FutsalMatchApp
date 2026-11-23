@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lapangan">#0B5D4B</color>
+    <color name="lapangan_malam">#073B30</color>
+    <color name="tinta">#0C1F1B</color>
+    <color name="peluit">#FFC21A</color>
+    <color name="kartu_orange">#F2571F</color>
+    <color name="langit">#2E9CCA</color>
+    <color name="kertas_skor">#F3F5EF</color>
+    <color name="rumput_muda">#DCEFE6</color>
+
+    <color name="kesalahan">#B3261E</color>
+    <color name="tombol_whatsapp">#1FAF5A</color>
+    <color name="garis">#D9DED3</color>
+    <color name="sedang_level">#E0A800</color>
+
+    <color name="jago_bg">#FDECE5</color>
+    <color name="sedang_bg">#FDF5DC</color>
+    <color name="pemula_bg">#E5F4FA</color>
+    <color name="terkunci_bg">#EAECE6</color>
+    <color name="abu_teks">#5C6B66</color>
+    <color name="abu_muda">#8A9793</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="hitam">#000000</color>
+</resources>

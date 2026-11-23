@@ -1,0 +1,213 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.futsalmatch.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <queries>
+13-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:6:5-11:15
+14        <intent>
+14-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:7:9-10:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:8:13-65
+15-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:8:21-62
+16
+17            <data android:scheme="https" />
+17-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:9:13-44
+17-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:9:19-41
+18        </intent>
+19    </queries>
+20
+21    <permission
+21-->[androidx.core:core:1.13.1] C:\Users\Advan\.gradle\caches\transforms-4\e91d43edd169d12026c8450ba62b92db\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+22        android:name="com.futsalmatch.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.1] C:\Users\Advan\.gradle\caches\transforms-4\e91d43edd169d12026c8450ba62b92db\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.1] C:\Users\Advan\.gradle\caches\transforms-4\e91d43edd169d12026c8450ba62b92db\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.futsalmatch.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.1] C:\Users\Advan\.gradle\caches\transforms-4\e91d43edd169d12026c8450ba62b92db\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.1] C:\Users\Advan\.gradle\caches\transforms-4\e91d43edd169d12026c8450ba62b92db\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:13:5-68:19
+28        android:allowBackup="true"
+28-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:14:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.1] C:\Users\Advan\.gradle\caches\transforms-4\e91d43edd169d12026c8450ba62b92db\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:15:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:16:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:17:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:18:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.FutsalMatch" >
+37-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:19:9-49
+38        <activity
+38-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:21:9-29:20
+39            android:name="com.futsalmatch.app.SplashScreenActivity"
+39-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:22:13-49
+40            android:exported="true"
+40-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:23:13-36
+41            android:theme="@style/Theme.FutsalMatch.Splash" >
+41-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:24:13-60
+42            <intent-filter>
+42-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:25:13-28:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:26:17-69
+43-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:26:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:27:17-77
+45-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:27:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:31:9-33:40
+49            android:name="com.futsalmatch.app.BaseActivity"
+49-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:32:13-41
+50            android:exported="false" />
+50-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:33:13-37
+51        <activity
+51-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:35:9-38:58
+52            android:name="com.futsalmatch.app.auth.LoginActivity"
+52-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:36:13-47
+53            android:exported="false"
+53-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:37:13-37
+54            android:windowSoftInputMode="adjustResize" />
+54-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:38:13-55
+55        <activity
+55-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:40:9-43:58
+56            android:name="com.futsalmatch.app.auth.RegisterActivity"
+56-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:41:13-50
+57            android:exported="false"
+57-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:42:13-37
+58            android:windowSoftInputMode="adjustResize" />
+58-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:43:13-55
+59        <activity
+59-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:45:9-47:40
+60            android:name="com.futsalmatch.app.ui.team.DetailTimActivity"
+60-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:46:13-54
+61            android:exported="false" />
+61-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:47:13-37
+62        <activity
+62-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:49:9-52:58
+63            android:name="com.futsalmatch.app.ui.match.TambahMatchActivity"
+63-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:50:13-57
+64            android:exported="false"
+64-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:51:13-37
+65            android:windowSoftInputMode="adjustResize" />
+65-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:52:13-55
+66        <activity
+66-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:54:9-56:40
+67            android:name="com.futsalmatch.app.ui.match.DetailMatchActivity"
+67-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:55:13-57
+68            android:exported="false" />
+68-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:56:13-37
+69        <activity
+69-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:58:9-61:58
+70            android:name="com.futsalmatch.app.ui.match.FormReviewActivity"
+70-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:59:13-56
+71            android:exported="false"
+71-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:60:13-37
+72            android:windowSoftInputMode="adjustResize" />
+72-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:61:13-55
+73        <activity
+73-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:63:9-66:58
+74            android:name="com.futsalmatch.app.ui.profile.EditTimActivity"
+74-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:64:13-55
+75            android:exported="false"
+75-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:65:13-37
+76            android:windowSoftInputMode="adjustResize" />
+76-->C:\Users\Advan\Downloads\FutsalMatchApp\app\src\main\AndroidManifest.xml:66:13-55
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Advan\.gradle\caches\transforms-4\8d265db809aefe6ba535572b60a1cbcb\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Advan\.gradle\caches\transforms-4\8d265db809aefe6ba535572b60a1cbcb\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+80            android:authorities="com.futsalmatch.app.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Advan\.gradle\caches\transforms-4\8d265db809aefe6ba535572b60a1cbcb\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Advan\.gradle\caches\transforms-4\8d265db809aefe6ba535572b60a1cbcb\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Advan\.gradle\caches\transforms-4\8d265db809aefe6ba535572b60a1cbcb\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Advan\.gradle\caches\transforms-4\8d265db809aefe6ba535572b60a1cbcb\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Advan\.gradle\caches\transforms-4\8d265db809aefe6ba535572b60a1cbcb\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Advan\.gradle\caches\transforms-4\30b56e77498c803a46ee474377bf4619\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Advan\.gradle\caches\transforms-4\30b56e77498c803a46ee474377bf4619\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Advan\.gradle\caches\transforms-4\30b56e77498c803a46ee474377bf4619\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <service
+93-->[androidx.room:room-runtime:2.6.1] C:\Users\Advan\.gradle\caches\transforms-4\3491be084682f777f2359a2bc8e00d91\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+94            android:name="androidx.room.MultiInstanceInvalidationService"
+94-->[androidx.room:room-runtime:2.6.1] C:\Users\Advan\.gradle\caches\transforms-4\3491be084682f777f2359a2bc8e00d91\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+95            android:directBootAware="true"
+95-->[androidx.room:room-runtime:2.6.1] C:\Users\Advan\.gradle\caches\transforms-4\3491be084682f777f2359a2bc8e00d91\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+96            android:exported="false" />
+96-->[androidx.room:room-runtime:2.6.1] C:\Users\Advan\.gradle\caches\transforms-4\3491be084682f777f2359a2bc8e00d91\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+97
+98        <receiver
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+99            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+100            android:directBootAware="false"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+101            android:enabled="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+102            android:exported="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+103            android:permission="android.permission.DUMP" >
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+105                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+108                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+111                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+114                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Advan\.gradle\caches\transforms-4\16e301cf918698b0162b7c845acd09ac\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>

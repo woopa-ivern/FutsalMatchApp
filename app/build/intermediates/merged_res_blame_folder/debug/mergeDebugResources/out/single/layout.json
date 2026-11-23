@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_register.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_login.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_form_review.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_form_review.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/fragment_riwayat.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/fragment_riwayat.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/item_match_history.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/item_match_history.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_base.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_base.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_detail_tim.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_detail_tim.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/item_player_input.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/item_player_input.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_detail_match.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_detail_match.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/fragment_home.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_tambah_match.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_tambah_match.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/item_team_card.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/item_team_card.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/fragment_cari_lawan.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/fragment_cari_lawan.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_edit_tim.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_edit_tim.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/activity_splash_screen.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/item_player_row.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/item_player_row.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/item_team_recent_match.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/item_team_recent_match.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/fragment_daftar_tim.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/fragment_daftar_tim.xml"
+    },
+    {
+        "merged": "com.futsalmatch.app-mergeDebugResources-42:/layout/fragment_profil_tim_saya.xml",
+        "source": "com.futsalmatch.app-main-45:/layout/fragment_profil_tim_saya.xml"
+    }
+]

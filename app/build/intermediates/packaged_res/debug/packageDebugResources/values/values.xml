@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abu_muda">#8A9793</color>
+    <color name="abu_teks">#5C6B66</color>
+    <color name="garis">#D9DED3</color>
+    <color name="hitam">#000000</color>
+    <color name="jago_bg">#FDECE5</color>
+    <color name="kartu_orange">#F2571F</color>
+    <color name="kertas_skor">#F3F5EF</color>
+    <color name="kesalahan">#B3261E</color>
+    <color name="langit">#2E9CCA</color>
+    <color name="lapangan">#0B5D4B</color>
+    <color name="lapangan_malam">#073B30</color>
+    <color name="peluit">#FFC21A</color>
+    <color name="pemula_bg">#E5F4FA</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="rumput_muda">#DCEFE6</color>
+    <color name="sedang_bg">#FDF5DC</color>
+    <color name="sedang_level">#E0A800</color>
+    <color name="terkunci_bg">#EAECE6</color>
+    <color name="tinta">#0C1F1B</color>
+    <color name="tombol_whatsapp">#1FAF5A</color>
+    <string name="app_name">FutsalMatch</string>
+    <string name="tagline">Cari lawan futsal seimbang, catat hasilnya, bangun reputasi timmu.</string>
+    <style name="FutsalMatch.BottomNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/rumput_muda</item>
+    </style>
+    <style name="Theme.FutsalMatch" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/lapangan</item>
+        <item name="colorOnPrimary">@color/putih</item>
+        <item name="colorPrimaryContainer">@color/rumput_muda</item>
+        <item name="colorOnPrimaryContainer">@color/lapangan_malam</item>
+        <item name="colorSecondary">@color/peluit</item>
+        <item name="colorOnSecondary">@color/tinta</item>
+        <item name="colorError">@color/kesalahan</item>
+        <item name="android:colorBackground">@color/kertas_skor</item>
+        <item name="colorSurface">@color/putih</item>
+        <item name="colorOnSurface">@color/tinta</item>
+        <item name="colorOutline">@color/garis</item>
+        <item name="android:statusBarColor">@color/lapangan</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.FutsalMatch.Splash" parent="Theme.FutsalMatch">
+        <item name="android:windowBackground">@color/lapangan</item>
+        <item name="android:statusBarColor">@color/lapangan</item>
+    </style>
+</resources>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kertas_skor"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/kertas_skor"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="Detail tim"
+        app:titleTextColor="@color/tinta" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="24dp">
+
+            <!-- HEADER CARD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_rounded"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <FrameLayout
+                    android:layout_width="58dp"
+                    android:layout_height="58dp">
+
+                    <ImageView
+                        android:id="@+id/ivDetailAvatar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="Logo tim"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tvDetailInitials"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_avatar_placeholder"
+                        android:gravity="center"
+                        android:text="GF"
+                        android:textColor="@color/putih"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvDetailNamaTim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Garuda FC"
+                        android:textColor="@color/tinta"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="13dp"
+                            android:layout_height="13dp"
+                            android:contentDescription="Kota"
+                            android:src="@drawable/ic_location"
+                            app:tint="@color/abu_teks" />
+
+                        <TextView
+                            android:id="@+id/tvDetailKota"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:text="Malang"
+                            android:textColor="@color/abu_teks"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvDetailSkillBadge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_badge_jago"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="3dp"
+                        android:text="• Jago"
+                        android:textColor="@color/kartu_orange"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvDetailReviewCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 review"
+                        android:textColor="@color/abu_teks"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:contentDescription="Rating"
+                            android:src="@drawable/ic_star"
+                            app:tint="@color/peluit" />
+
+                        <TextView
+                            android:id="@+id/tvDetailRatingAvg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:text="4.8"
+                            android:textColor="@color/tinta"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- DESKRIPSI -->
+            <TextView
+                android:id="@+id/tvDetailDeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/abu_teks"
+                android:textSize="14sp" />
+
+            <!-- ANGGOTA -->
+            <TextView
+                android:id="@+id/tvAnggotaHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Anggota (5)"
+                android:textColor="@color/tinta"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipGroupAnggota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:chipSpacingHorizontal="6dp"
+                app:chipSpacingVertical="6dp" />
+
+            <!-- RATING BREAKDOWN -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Rating"
+                android:textColor="@color/tinta"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_card_rounded"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <!-- Sportivitas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sportivitas"
+                        android:textColor="@color/abu_teks"
+                        android:textSize="13sp" />
+
+                    <ProgressBar
+                        android:id="@+id/pbSportivitas"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:max="50"
+                        android:progress="0"
+                        android:progressTint="@color/lapangan" />
+
+                    <TextView
+                        android:id="@+id/tvScoreSportivitas"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="0.0"
+                        android:textColor="@color/tinta"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Ketepatan waktu -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ketepatan waktu"
+                        android:textColor="@color/abu_teks"
+                        android:textSize="13sp" />
+
+                    <ProgressBar
+                        android:id="@+id/pbKetepatan"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:max="50"
+                        android:progress="0"
+                        android:progressTint="@color/lapangan" />
+
+                    <TextView
+                        android:id="@+id/tvScoreKetepatan"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="0.0"
+                        android:textColor="@color/tinta"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Skill sesuai level -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:text="Skill sesuai level"
+                        android:textColor="@color/abu_teks"
+                        android:textSize="13sp" />
+
+                    <ProgressBar
+                        android:id="@+id/pbSkillMatch"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="8dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:max="50"
+                        android:progress="0"
+                        android:progressTint="@color/lapangan" />
+
+                    <TextView
+                        android:id="@+id/tvScoreSkillMatch"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="0.0"
+                        android:textColor="@color/tinta"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 5 MATCH TERAKHIR -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="5 match terakhir"
+                android:textColor="@color/tinta"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvRecentMatches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:nestedScrollingEnabled="false" />
+
+            <TextView
+                android:id="@+id/tvEmptyRecentMatches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_card_rounded"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Belum ada riwayat pertandingan."
+                android:textColor="@color/abu_teks"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- BOTTOM STICKY WHATSAPP BAR -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/garis" />
+
+    <!-- GUEST LOCKED FOOTER -->
+    <LinearLayout
+        android:id="@+id/layoutWaGuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/putih"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="14dp"
+        android:visibility="gone">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLoginUntukWa"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Login untuk lihat nomor WA"
+            android:textAllCaps="false"
+            android:textColor="@color/abu_teks"
+            android:textStyle="bold"
+            app:backgroundTint="@color/terkunci_bg"
+            app:cornerRadius="24dp"
+            app:icon="@drawable/ic_lock"
+            app:iconGravity="textStart"
+            app:iconTint="@color/abu_teks" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Nomor WA hanya untuk member terdaftar"
+            android:textColor="@color/abu_teks"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- MEMBER UNLOCKED WHATSAPP FOOTER -->
+    <LinearLayout
+        android:id="@+id/layoutWaMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/putih"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="14dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_badge_rumput"
+            android:contentDescription="WhatsApp"
+            android:padding="8dp"
+            android:src="@drawable/ic_whatsapp"
+            app:tint="@color/tombol_whatsapp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp kapten"
+                android:textColor="@color/abu_teks"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvNomorWa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0812-3456-7890"
+                android:textColor="@color/tinta"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHubungiWa"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:text="Hubungi"
+            android:textAllCaps="false"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            app:backgroundTint="@color/tombol_whatsapp"
+            app:cornerRadius="23dp" />
+    </LinearLayout>
+</LinearLayout>

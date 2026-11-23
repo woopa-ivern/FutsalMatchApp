@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp">
+
+    <TextView
+        android:id="@+id/tvPlayerInitial"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_badge_rumput"
+        android:gravity="center"
+        android:text="Y"
+        android:textColor="@color/lapangan_malam"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPlayerNameRow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:text="Yusuf"
+        android:textColor="@color/tinta"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPlayerPositionRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kapten · Anchor"
+        android:textColor="@color/abu_teks"
+        android:textSize="12sp" />
+</LinearLayout>
